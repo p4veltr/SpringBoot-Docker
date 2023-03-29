@@ -1,0 +1,7 @@
+version: '1'
+services:
+  MyApp1:
+    build: /.
+    image: myapp:latest
+    ports:
+      - '9999:8080'
